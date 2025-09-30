@@ -1,3 +1,3 @@
 # Hackathon-Project
 Projekt na hackathon siema
-OPISSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+OPIS
