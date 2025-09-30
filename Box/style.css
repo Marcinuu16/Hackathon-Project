@@ -1,0 +1,59 @@
+body{
+    margin:0px;
+}
+
+.box{
+    width:200px;
+    height:200px;
+    align-items: center;
+    animation: move 10s infinite;
+    display:flex;
+    
+}
+.text{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:40px; 
+    text-align:center;
+    color:black;
+    animation: colors 10s infinite;
+}
+
+@keyframes move{
+0%{
+    transform: translate(0px,0px);
+    background-color: red;
+}
+25%{
+    transform: translate(calc(100vw - 100%),0px);
+    background-color: yellow;
+}
+50%{
+    transform: translate(calc(100vw - 100%),calc(100vh - 100%));
+    background-color: green;
+}
+75%{
+    transform: translate(0px,calc(100vh - 100%));
+    background-color: blue;
+}
+100%{
+    transform: translate(0px,0px);
+    background-color: red;
+}
+}
+@keyframes colors{
+    0%{
+        color:darkred;
+    }
+    25%{
+        color:darkgoldenrod;
+    }
+    50%{
+        color:darkgreen;
+    }
+    75%{
+        color:darkblue;
+    }
+    100%{
+        color:darkred;
+    }
+}
